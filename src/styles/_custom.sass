@@ -5,18 +5,18 @@
     position: absolute
     top: 70%
     right: 10%
-    width: 30%
+    width: 25%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 35%
     right: 10%
     width: 25%
   &-3
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 50%
-    left: 5%
+    top: 40%
+    right: 70%
     width: 25%
 
 @keyframes float1
@@ -63,21 +63,21 @@
   &-1
     background-color: $color-primario
   &-2
-    background-color: #000  
+    background-color: #fffae4  
   &-3
-    background-color: #000
+    background-color: #e2fbfb
   &-4
-    background-color: #000
+    background-color: #E9D5F8
   &-5
-    background-color: #000
+    background-color: #F0FDFD
   &-6
-    background-color: #000
+    background-color: #fff7cb
   &-7
-    background-color: #000
+    background-color: #491a6d
   &-8
-    background-color: #000
+    background-color: #b8d1d8
   &-9
-    background-color: #000
+    background-color: #e9d5f8
   &-10
     background-color: #000
 /**************************************************************/
@@ -167,11 +167,11 @@
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: $color-acento-botones !important
 .slyder-a__bullets__item--active 
-  background-color: #3034a9 !important
-  border-color: #3034a9
+  background-color: #71EDEF !important
+  border-color: #71EDEF
 .slyder-a__bullets__item
-  background-color: #3034a9
-  border: 1px solid #3034a9
+  background-color: #71EDEF
+  border: 1px solid #71EDEF
 .bloque-texto-b.color-secundario:before
   background-color: #CBE7E8
 .tarjeta-numerada.color-primario
@@ -232,7 +232,7 @@
 
 /*Accordion*/
 .tarjeta.acordeonA
-  background-color: #86d5e4 !important
+  background-color: #b8d1d8 !important
   transition: background-color 0.3s ease-in-out
   
   .acordion__header
@@ -241,7 +241,7 @@
         color: #000 !important
 
   &.acordion__activo
-    background-color: #ceeef4 !important
+    background-color: #c5f7f8 !important
     .acordion__header
       .acordion__titulo
         h3, h4, span, a, p
@@ -461,15 +461,15 @@
 
 /*Audio*/
 .bg-custom-teal
-  background-color: #161a78 !important 
+  background-color: #672499 !important 
   position: relative
   overflow: hidden
   
 .bg-custom-dark-teal
-  background-color: #161a78 !important
+  background-color: #672499 !important
 
 .border-lemon
-  border: 4px solid #161a78 !important
+  border: 4px solid #672499 !important
   border-radius: 15px
 
 /*Fin Audio*/
@@ -576,12 +576,12 @@
     align-items: start !important 
     margin-bottom: 1rem !important     
     .fas, [class*="fa-"]
-      color: $color-acento-contenido !important 
+      color: #B19600 !important 
       font-size: 1.15rem !important
       margin-top: 4px !important
       display: inline-block !important      
       &::before
-        color: $color-acento-contenido !important
+        color: #B19600 !important
     span
       display: inline-block !important
       line-height: 1.5 !important
@@ -612,12 +612,30 @@
 .tarjeta--boton
   background-color: #DAF2ED !important
 
-
-
 .boton *, .boton--sm *, .barra-avance__boton--regresar span
   color: #000 !important
 
 
-
 .btn-custom-download
   color: #fff !important
+
+// Pestanas verticales
+.tabs-a.color-primario .tabs-a__tab__selected
+  color: $black !important
+
+.tabs-a__tab
+  background: #9535dc
+  color: $white
+
+.tabs-a
+  .tabs-a__content-item
+    height: 100%
+  .tarjeta
+    height: 100%
+    display: flex
+    flex-direction: column  
+// Pestanas verticales
+
+
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: $black

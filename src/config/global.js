@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos de inteligencia artificial (IA) para hechos económicos',
     Description:
-      'El reconocimiento de los hechos económicos, la aplicación de la normativa financiera, la protección de datos y el uso responsable de herramientas de inteligencia artificial permiten preparar información contable y financiera confiable. La recolección de datos, la digitalización de soportes, la selección de herramientas de IA y la formulación de prompts fortalecen la extracción, la validación y la organización inicial de la información financiera, conforme a criterios éticos, técnicos y normativos.',
+      'El reconocimiento de los hechos económicos, la aplicación de la normativa financiera, la protección de datos y el uso responsable de herramientas de inteligencia artificial permiten preparar información contable y financiera confiable. La recolección de datos, la digitalización de soportes, la selección de herramientas de IA y la formulación de <i>prompts</i> fortalecen la extracción, la validación y la organización inicial de la información financiera, conforme a criterios éticos, técnicos y normativos.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -36,27 +36,183 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Hechos económicos e información financiera digital',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto de hecho económico',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Ocurrencia de hechos económicos en contextos contables y financieros',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Relación entre documentos, datos y registros contables',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Recolección de datos contables para herramientas de IA',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Alcance de la IA en la obtención de información financiera',
+            hash: 't_1_5',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Normativa financiera y protección de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Normativa de información financiera nacional e internacional',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo:
+              'Concepto, objetivos y estructura de la normativa financiera',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Reconocimiento y medición de hechos económicos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Protección de datos aplicada a información financiera',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Acceso, seguridad y confidencialidad de la información',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo:
+          'Herramientas tecnológicas financieras e inteligencia artificial',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo:
+              'Herramientas tecnológicas financieras: concepto y características',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'Técnicas de digitalización y captura de información financiera',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Estandarización de archivos para análisis con IA',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo:
+              'Firmas electrónicas, almacenamiento y gestión documental financiera',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo:
+              'Principios de inteligencia artificial: conceptos, herramientas y tendencias',
+            hash: 't_3_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Ética, transparencia y riesgos en el uso de IA',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Implicaciones éticas y legales del uso de IA',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              'Veracidad, privacidad y responsabilidad en datos financieros',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo:
+              'Transparencia algorítmica, justicia y rendición de cuentas',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo:
+              'Sesgos algorítmicos, errores de predicción y dependencia tecnológica',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo:
+              'Controles internos y normativos aplicables al uso de IA financiera',
+            hash: 't_4_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Ingeniería de <i>prompts</i> para hechos económicos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto de <i>prompt</i> e ingeniería de <i>prompts</i>',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Delimitación de la necesidad contable o financiera',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo:
+              'Selección de <i>chatbots</i> y herramientas de IA según la necesidad',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo:
+              'Estructuración y ejecución de <i>prompts</i> en aplicativos de IA',
+            hash: 't_5_4',
+          },
+          {
+            numero: '5.5',
+            titulo:
+              'Errores, iteración, validación y archivo de <i>prompts</i> corregidos',
+            hash: 't_5_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -116,7 +272,7 @@ export default {
         'Señales de alerta que indican posibles errores, inconsistencias o situaciones que requieren revisión.',
     },
     {
-      termino: 'Chatbot',
+      termino: '<i>Chatbot</i>',
       significado:
         'Herramienta de inteligencia artificial que responde instrucciones o preguntas en lenguaje natural.',
     },
@@ -146,7 +302,7 @@ export default {
         'Tecnología que procesa información para apoyar tareas como clasificación, análisis, alertas o recomendaciones.',
     },
     {
-      termino: 'Ingeniería de prompts',
+      termino: 'Ingeniería de <i>prompts</i>',
       significado:
         'Técnica para formular instrucciones claras y obtener respuestas útiles de herramientas de inteligencia artificial.',
     },
@@ -156,7 +312,7 @@ export default {
         'Asignación de un valor monetario a un hecho económico reconocido.',
     },
     {
-      termino: 'Prompt',
+      termino: '<i>Prompt</i>',
       significado:
         'Instrucción o solicitud que se entrega a una herramienta de inteligencia artificial.',
     },
@@ -224,7 +380,7 @@ export default {
     },
     {
       referencia:
-        'International Accounting Standards Board. (2018). Conceptual framework for financial reporting. IFRS Foundation.',
+        'International Accounting Standards Board. (2018). Conceptual Framework for Financial Reporting. IFRS Foundation.',
       link: 'https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/',
     },
     {
@@ -234,7 +390,7 @@ export default {
     },
     {
       referencia:
-        'OpenAI. (s. f.). Prompt engineering. Recuperado el 1 de septiembre de 2026.',
+        'OpenAI. (s. f.). <i>Prompt</i> engineering. Recuperado el 1 de septiembre de 2026.',
       link: 'https://developers.openai.com/api/docs/guides/prompt-engineering',
     },
     {
@@ -316,7 +472,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carlos Julian Ramirez Benitez',
+          nombre: 'Fredy Fabian Ortiz Segura',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

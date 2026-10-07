@@ -315,7 +315,7 @@
       .row
         #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.4 Recolección de datos contables para herramientas de IA
-      p(data-aos="fade-left") La recolección de datos contables consiste en reunir información pertinente, respaldada y organizada para atender una necesidad financiera. Por ello, antes de utilizar IA deben considerarse los siguientes aspectos:
+      p(data-aos="fade-left") La recolección de datos contables consiste en reunir información pertinente, respaldada y organizada para atender una necesidad financiera. Por ello, antes de utilizar IA, deben considerarse los siguientes aspectos:
       //- Inicio Accordion 1
       .bg--img_03.mt-5
         .row.justify-content-center

@@ -384,7 +384,7 @@
               img(src='@/assets/curso/temas/t4/tarjeta05_3.svg', alt='', style='width: 90px;')
             h4.fw-bold.mb-3.mt-3 Gestión del riesgo
             p.mb-0 Los controles deben mantenerse durante todo el uso de la IA para reducir riesgos asociados con los datos, los resultados y las decisiones derivadas del análisis (NIST, 2026).
-      p(data-aos="fade-left") En esta tabla muestra controles prácticos que pueden aplicarse antes, durante y después de usar inteligencia artificial en procesos financieros.
+      p(data-aos="fade-left") Esta tabla muestra controles prácticos que pueden aplicarse antes, durante y después de usar inteligencia artificial en procesos financieros.
       p(data-aos="fade-right") En la práctica, los controles pueden integrarse en tres momentos del análisis financiero con inteligencia artificial:
       .row.bg-fondo-2.justify-content-center(data-aos="fade-right")
         .col-10
@@ -473,4 +473,3 @@ export default {
 </script>
 
 <style lang="sass"></style>
-

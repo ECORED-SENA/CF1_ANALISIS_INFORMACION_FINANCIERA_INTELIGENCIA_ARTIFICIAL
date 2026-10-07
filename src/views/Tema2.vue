@@ -277,7 +277,7 @@
                   img(src='@/assets/curso/temas/t2/tarjeta05_4.png', alt='')
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 Anonimización y habeas data
-                p Los datos identificables deben ocultables cuando sea posible. La información financiera, crediticia y comercial requiere protección especial (Ley 1266, 2008).
+                p Los datos identificables deben ocultarse cuando sea posible. La información financiera, crediticia y comercial requiere protección especial (Ley 1266, 2008).
       //- Fin Slideshow
       p(data-aos="fade-left") La aplicación de estos principios comprende acciones específicas en cada momento del tratamiento de la información financiera:
       .row.bg-fondo-2(data-aos="fade-right")

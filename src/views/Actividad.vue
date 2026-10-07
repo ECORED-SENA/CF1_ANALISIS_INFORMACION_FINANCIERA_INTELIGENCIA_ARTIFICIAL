@@ -21,7 +21,7 @@ export default {
     cuestionario: {
       tema: 'Fundamentos de inteligencia artificial (IA) para hechos económicos',
       titulo:
-        'Cuestionario de verificación sobre fundamentos de IA para hechos económicos.',
+        'Cuestionario de verificación sobre fundamentos de IA para hechos económicos',
       introduccion:
         '<b>Objetivo:</b> verificar la comprensión de los conceptos y procedimientos necesarios para utilizar herramientas de inteligencia artificial en el tratamiento inicial de hechos económicos, teniendo en cuenta la identificación de la información financiera, la normativa aplicable, la protección de datos, el uso ético de la inteligencia artificial (IA), la formulación de <i>prompts</i> y la validación de los resultados mediante soportes documentales.',
       barajarPreguntas: false,

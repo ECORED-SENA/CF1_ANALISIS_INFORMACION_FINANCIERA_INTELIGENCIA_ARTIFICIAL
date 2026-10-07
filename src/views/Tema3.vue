@@ -133,7 +133,7 @@
       .row.justify-content-center.mb-5(data-aos="fade-left") 
         .col-lg-8.p-4.bg-color-6
           p.fw-bold Ejemplo aplicado
-          p Una empresa necesita revisar las cuentas por pagar del mes. Para hacerlo, reúne las facturas de proveedores, los comprobantes de egreso y el extracto bancario. Primero organiza los archivos por fecha y proveedor en una carpeta digital. Luego consolida en una hoja de cálculo los datos principales: número de factura, proveedor, fecha, valor, vencimiento y estado de pago. Después utiliza una herramienta de IA para identificar posibles pagos duplicados, facturas sin comprobante o valores que no coinciden con el extracto.
+          p Una empresa necesita revisar las cuentas por pagar del mes. Para hacerlo, reúne las facturas de proveedores, los comprobantes de egreso y el extracto bancario. Primero, organiza los archivos por fecha y proveedor en una carpeta digital. Luego, consolida en una hoja de cálculo los datos principales: número de factura, proveedor, fecha, valor, vencimiento y estado de pago. Después, utiliza una herramienta de IA para identificar posibles pagos duplicados, facturas sin comprobante o valores que no coinciden con el extracto.
           p La herramienta de IA puede entregar una lista preliminar de alertas, por ejemplo: dos facturas con el mismo valor y proveedor, un pago registrado sin factura asociada o una factura vencida que no aparece como pagada. Sin embargo, la persona responsable debe revisar cada alerta con los documentos originales antes de tomar decisiones o hacer ajustes contables.
       p(data-aos="fade-left") A partir del ejemplo anterior, el uso articulado de las herramientas tecnológicas financieras puede organizarse mediante la siguiente ruta práctica:
       .row.bg-fondo-2(data-aos="fade-right")
@@ -611,7 +611,7 @@
               .row(titulo="Validación de los resultados")
                 p.mb-0 Los resultados generados con apoyo de IA se comparan con los soportes originales antes de utilizarlos para la toma de decisiones.
       //- Fin Accordion 1
-      p(data-aos="fade-left") La estandarización de archivos favorece resultados más confiables con IA al mantener documentos organizados, datos claros y información sensible protegida
+      p(data-aos="fade-left") La estandarización de archivos favorece resultados más confiables con IA al mantener documentos organizados, datos claros e información sensible protegida.
       Separador
       //- Inicio Tema3.4
       .row
@@ -1065,7 +1065,7 @@
           p.fw-bold Ejemplo aplicado
           p Una empresa necesita revisar los gastos del mes. Para ello, obtiene una base con fecha, tercero, concepto, centro de costo, valor y soporte; elimina información innecesaria, unifica formatos y protege los datos personales que no requiere para el análisis.
           p Posteriormente, solicita a una herramienta de IA identificar las categorías con mayor valor, posibles variaciones y registros que requieren revisión. La respuesta obtenida constituye un resultado preliminar que debe contrastarse con facturas, comprobantes y demás soportes antes de establecer conclusiones.
-      p(data-aos="fade-left") Mediante la siguiente tabla se presenta muestra una ruta sencilla para usar inteligencia artificial en la revisión inicial de información financiera:
+      p(data-aos="fade-left") Mediante la siguiente tabla se presenta una ruta sencilla para usar inteligencia artificial en la revisión inicial de información financiera:
       //- Inicio Tabla
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-md-auto.col-lg-12

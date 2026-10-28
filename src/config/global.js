@@ -341,7 +341,7 @@ export default {
     {
       referencia:
         'Archivo General de la Nación. (2017). Requisitos mínimos de digitalización.',
-      link: 'https://www.archivogeneral.gov.co/el-agn-presenta-el-documento-requisitos-minimos-de-digitalizacion',
+      link: 'https://www.archivogeneral.gov.co/consulte/recursos/publicaciones',
     },
     {
       referencia:

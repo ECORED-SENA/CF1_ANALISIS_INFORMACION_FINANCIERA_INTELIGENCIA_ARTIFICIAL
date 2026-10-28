@@ -1089,7 +1089,7 @@
                 tr
                   td.text-center 2
                   td Seleccionar la herramienta adecuada.
-                  td Chatbot, OCR, analítica, tablero o sistema contable con IA.
+                  td <i>Chatbot</i>, OCR, analítica, tablero o sistema contable con IA.
                   td Herramienta coherente con la tarea.
                 tr
                   td.text-center 3

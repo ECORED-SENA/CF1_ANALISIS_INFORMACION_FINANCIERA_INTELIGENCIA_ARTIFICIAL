@@ -241,7 +241,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/13310011_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -444,24 +444,19 @@ export default {
             'Profesional 06  <br> Responsable Ecosistema Virtual de Recursos Educativos Digitales  ',
           centro: 'Centro Agroturístico - Regional Santander',
         },
-        {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
-        },
       ],
     },
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Eliana Audrey Manchola Pérez ',
-          cargo: 'Experto temático ',
+          nombre: 'Paola Andrea Tello Zambrano',
+          cargo: 'Experta temática',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
-          nombre: 'Paola Alexandra Moya ',
+          nombre: 'Paula Marcela Vidal Quintero',
           cargo: 'Evaluadora instruccional ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
